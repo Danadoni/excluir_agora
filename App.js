@@ -1,11 +1,12 @@
 import React from 'react'
-import {Text, StyleSheet} from 'react-native'
+import {Text, StyleSheet,Button} from 'react-native'
 
 export default function App () {
 
   return (
 
           <Text style = {css.texto}> Meu primeiro app </Text>
+          <Button title='Olá' ></Button>
 
 
   );
